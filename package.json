@@ -1,0 +1,17 @@
+{
+  "name": "discord-silent-voice-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Discord bot that joins one configured voice channel silently.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "discord.js": "^14.22.1"
+  }
+}
